@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BF3C12F220438F3F0079A4B5"
-               BuildableName = "NESDeltaCore.framework"
-               BlueprintName = "NESDeltaCore"
-               ReferencedContainer = "container:NESDeltaCore.xcodeproj">
+               BuildableName = "NESGameCore.framework"
+               BlueprintName = "NESGameCore"
+               ReferencedContainer = "container:NESGameCore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -46,13 +44,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BF3C12F220438F3F0079A4B5"
-            BuildableName = "NESDeltaCore.framework"
-            BlueprintName = "NESDeltaCore"
-            ReferencedContainer = "container:NESDeltaCore.xcodeproj">
+            BuildableName = "NESGameCore.framework"
+            BlueprintName = "NESGameCore"
+            ReferencedContainer = "container:NESGameCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -64,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BF3C12F220438F3F0079A4B5"
-            BuildableName = "NESDeltaCore.framework"
-            BlueprintName = "NESDeltaCore"
-            ReferencedContainer = "container:NESDeltaCore.xcodeproj">
+            BuildableName = "NESGameCore.framework"
+            BlueprintName = "NESGameCore"
+            ReferencedContainer = "container:NESGameCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

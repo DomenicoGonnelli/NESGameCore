@@ -10,7 +10,7 @@ import Foundation
 import WebKit
 
 #if FRAMEWORK
-import DeltaCore
+import GameCore
 #endif
 
 extension NESEmulatorBridge

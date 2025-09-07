@@ -296,12 +296,12 @@
 		BF2F73BA20BDD1AB009114FF /* NstVsSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF2F73B420BDD1AA009114FF /* NstVsSystem.cpp */; };
 		BF2F73BE20BDD8CA009114FF /* NstDatabase.xml in Resources */ = {isa = PBXBuildFile; fileRef = BF2F72C320BDD139009114FF /* NstDatabase.xml */; };
 		BF2F73C220BF1A93009114FF /* Standard.deltamapping in Resources */ = {isa = PBXBuildFile; fileRef = BF2F73C120BF1A93009114FF /* Standard.deltamapping */; };
-		BF3C12F820438F3F0079A4B5 /* NESDeltaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3C12F620438F3F0079A4B5 /* NESDeltaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF3C12F820438F3F0079A4B5 /* NESGameCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3C12F620438F3F0079A4B5 /* NESGameCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF3DA3FC20C7079C00E3AE6B /* NESEmulatorBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE181D20C21B01006A17CD /* NESEmulatorBridge.swift */; };
 		BF4634A320D9D46800CD12FD /* libNestopia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2F702220BDCF93009114FF /* libNestopia.a */; };
 		BF4634A420D9D46E00CD12FD /* NESEmulatorBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF5CA7F020C1EE0B00BDFCBC /* NESEmulatorBridge.cpp */; };
 		BFEE181F20C21BE6006A17CD /* NESEmulatorBridge.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BF5CA7F120C1EE0B00BDFCBC /* NESEmulatorBridge.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFFBD3D72249B6E7002EFC79 /* Standard.deltaskin in Resources */ = {isa = PBXBuildFile; fileRef = BFFBD3D62249B6E7002EFC79 /* Standard.deltaskin */; };
+		BFFBD3D72249B6E7002EFC79 /* Standard.dgskin in Resources */ = {isa = PBXBuildFile; fileRef = BFFBD3D62249B6E7002EFC79 /* Standard.dgskin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -311,20 +311,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = BF2F702120BDCF93009114FF;
 			remoteInfo = libNestopia;
-		};
-		D59D6C092E29A38800DBAF5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D59D6C022E29A37600DBAF5B /* DeltaCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BF46895D1AACF36800A2586D;
-			remoteInfo = DeltaCore;
-		};
-		D59D6C0B2E29A39700DBAF5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D59D6C022E29A37600DBAF5B /* DeltaCore.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BF46895C1AACF36800A2586D;
-			remoteInfo = DeltaCore;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -962,8 +948,8 @@
 		BF2F73B520BDD1AB009114FF /* NstVsTkoBoxing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NstVsTkoBoxing.hpp; path = nestopia/source/core/vssystem/NstVsTkoBoxing.hpp; sourceTree = "<group>"; };
 		BF2F73B620BDD1AB009114FF /* NstVsSuperXevious.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NstVsSuperXevious.hpp; path = nestopia/source/core/vssystem/NstVsSuperXevious.hpp; sourceTree = "<group>"; };
 		BF2F73C120BF1A93009114FF /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
-		BF3C12F320438F3F0079A4B5 /* NESDeltaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NESDeltaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF3C12F620438F3F0079A4B5 /* NESDeltaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NESDeltaCore.h; sourceTree = "<group>"; };
+		BF3C12F320438F3F0079A4B5 /* NESGameCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NESGameCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3C12F620438F3F0079A4B5 /* NESGameCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NESGameCore.h; sourceTree = "<group>"; };
 		BF3C12F720438F3F0079A4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4634A520D9D60200CD12FD /* NstDatabase.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = NstDatabase.xml; path = NestopiaJS/NstDatabase.xml; sourceTree = SOURCE_ROOT; };
 		BF5CA7F020C1EE0B00BDFCBC /* NESEmulatorBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NESEmulatorBridge.cpp; sourceTree = "<group>"; };
@@ -971,8 +957,8 @@
 		BF5CA7F220C1FF4000BDFCBC /* Makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; path = Makefile; sourceTree = "<group>"; };
 		BF9DD5AA20C72BBB0098C38D /* nestopia.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nestopia.js; sourceTree = "<group>"; };
 		BFEE181D20C21B01006A17CD /* NESEmulatorBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESEmulatorBridge.swift; sourceTree = "<group>"; };
-		BFFBD3D62249B6E7002EFC79 /* Standard.deltaskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.deltaskin; path = "Controller Skin/Standard.deltaskin"; sourceTree = "<group>"; };
-		D59D6C022E29A37600DBAF5B /* DeltaCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DeltaCore.xcodeproj; path = ../DeltaCore/DeltaCore.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BFFBD3D62249B6E7002EFC79 /* Standard.dgskin */ = {isa = PBXFileReference; lastKnownFileType = text; name = Standard.dgskin; path = "Controller Skin/Standard.dgskin"; sourceTree = "<group>"; };
+		D59D6C022E29A37600DBAF5B /* GameCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameCore.xcodeproj; path = ../DeltaCore/GameCore.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1688,7 +1674,7 @@
 			children = (
 				BF4634A520D9D60200CD12FD /* NstDatabase.xml */,
 				BF3C12F720438F3F0079A4B5 /* Info.plist */,
-				BFFBD3D62249B6E7002EFC79 /* Standard.deltaskin */,
+				BFFBD3D62249B6E7002EFC79 /* Standard.dgskin */,
 				BF2F73C120BF1A93009114FF /* Standard.deltamapping */,
 			);
 			name = "Supporting Files";
@@ -1697,7 +1683,7 @@
 		BF3C12E920438F3F0079A4B5 = {
 			isa = PBXGroup;
 			children = (
-				BF3C12F520438F3F0079A4B5 /* NESDeltaCore */,
+				BF3C12F520438F3F0079A4B5 /* NESGameCore */,
 				BF2F702B20BDCFA5009114FF /* libNestopia */,
 				BF5CA7EB20C1EDA200BDFCBC /* NestopiaJS */,
 				D52035E22E29A34300AF3B25 /* Dependencies */,
@@ -1708,21 +1694,21 @@
 		BF3C12F420438F3F0079A4B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF3C12F320438F3F0079A4B5 /* NESDeltaCore.framework */,
+				BF3C12F320438F3F0079A4B5 /* NESGameCore.framework */,
 				BF2F702220BDCF93009114FF /* libNestopia.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF3C12F520438F3F0079A4B5 /* NESDeltaCore */ = {
+		BF3C12F520438F3F0079A4B5 /* NESGameCore */ = {
 			isa = PBXGroup;
 			children = (
-				BF3C12F620438F3F0079A4B5 /* NESDeltaCore.h */,
+				BF3C12F620438F3F0079A4B5 /* NESGameCore.h */,
 				BF2241D22043A19E00DDF06C /* NES.swift */,
 				BF2241D42043A1A100DDF06C /* Bridge */,
 				BF34EBC120C1ABB30075AD22 /* Supporting Files */,
 			);
-			path = NESDeltaCore;
+			path = NESGameCore;
 			sourceTree = "<group>";
 		};
 		BF5CA7EB20C1EDA200BDFCBC /* NestopiaJS */ = {
@@ -1739,17 +1725,9 @@
 		D52035E22E29A34300AF3B25 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				D59D6C022E29A37600DBAF5B /* DeltaCore.xcodeproj */,
+				D59D6C022E29A37600DBAF5B /* GameCore.xcodeproj */,
 			);
 			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		D59D6C062E29A38700DBAF5B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D59D6C0A2E29A38800DBAF5B /* DeltaCore.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1759,7 +1737,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3C12F820438F3F0079A4B5 /* NESDeltaCore.h in Headers */,
+				BF3C12F820438F3F0079A4B5 /* NESGameCore.h in Headers */,
 				BFEE181F20C21BE6006A17CD /* NESEmulatorBridge.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1801,9 +1779,9 @@
 			productReference = BF2F702220BDCF93009114FF /* libNestopia.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BF3C12F220438F3F0079A4B5 /* NESDeltaCore */ = {
+		BF3C12F220438F3F0079A4B5 /* NESGameCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF3C12FB20438F3F0079A4B5 /* Build configuration list for PBXNativeTarget "NESDeltaCore" */;
+			buildConfigurationList = BF3C12FB20438F3F0079A4B5 /* Build configuration list for PBXNativeTarget "NESGameCore" */;
 			buildPhases = (
 				BF3C12EE20438F3F0079A4B5 /* Sources */,
 				BF3C12EF20438F3F0079A4B5 /* Frameworks */,
@@ -1813,12 +1791,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				D59D6C0C2E29A39700DBAF5B /* PBXTargetDependency */,
 				BF2F73BD20BDD385009114FF /* PBXTargetDependency */,
 			);
-			name = NESDeltaCore;
+			name = NESGameCore;
 			productName = NESDeltaCore;
-			productReference = BF3C12F320438F3F0079A4B5 /* NESDeltaCore.framework */;
+			productReference = BF3C12F320438F3F0079A4B5 /* NESGameCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1845,7 +1822,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF3C12ED20438F3F0079A4B5 /* Build configuration list for PBXProject "NESDeltaCore" */;
+			buildConfigurationList = BF3C12ED20438F3F0079A4B5 /* Build configuration list for PBXProject "NESGameCore" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1855,37 +1832,21 @@
 			mainGroup = BF3C12E920438F3F0079A4B5;
 			productRefGroup = BF3C12F420438F3F0079A4B5 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D59D6C062E29A38700DBAF5B /* Products */;
-					ProjectRef = D59D6C022E29A37600DBAF5B /* DeltaCore.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				BF3C12F220438F3F0079A4B5 /* NESDeltaCore */,
+				BF3C12F220438F3F0079A4B5 /* NESGameCore */,
 				BF2F702120BDCF93009114FF /* libNestopia */,
 				BF0F05F620C1EC95009560DD /* libNestopiaJS */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		D59D6C0A2E29A38800DBAF5B /* DeltaCore.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = DeltaCore.framework;
-			remoteRef = D59D6C092E29A38800DBAF5B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		BF3C12F120438F3F0079A4B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFBD3D72249B6E7002EFC79 /* Standard.deltaskin in Resources */,
+				BFFBD3D72249B6E7002EFC79 /* Standard.dgskin in Resources */,
 				BF2F73C220BF1A93009114FF /* Standard.deltamapping in Resources */,
 				BF2F73BE20BDD8CA009114FF /* NstDatabase.xml in Resources */,
 			);
@@ -2205,11 +2166,6 @@
 			target = BF2F702120BDCF93009114FF /* libNestopia */;
 			targetProxy = BF2F73BC20BDD385009114FF /* PBXContainerItemProxy */;
 		};
-		D59D6C0C2E29A39700DBAF5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DeltaCore;
-			targetProxy = D59D6C0B2E29A39700DBAF5B /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -2425,10 +2381,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NESDeltaCore/Info.plist;
+				INFOPLIST_FILE = NESGameCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.NESDeltaCore;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.domenico.gonnelli.core.nes;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -2450,10 +2406,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NESDeltaCore/Info.plist;
+				INFOPLIST_FILE = NESGameCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.NESDeltaCore;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.domenico.gonnelli.core.nes;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -2483,7 +2439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF3C12ED20438F3F0079A4B5 /* Build configuration list for PBXProject "NESDeltaCore" */ = {
+		BF3C12ED20438F3F0079A4B5 /* Build configuration list for PBXProject "NESGameCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF3C12F920438F3F0079A4B5 /* Debug */,
@@ -2492,7 +2448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF3C12FB20438F3F0079A4B5 /* Build configuration list for PBXNativeTarget "NESDeltaCore" */ = {
+		BF3C12FB20438F3F0079A4B5 /* Build configuration list for PBXNativeTarget "NESGameCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF3C12FC20438F3F0079A4B5 /* Debug */,

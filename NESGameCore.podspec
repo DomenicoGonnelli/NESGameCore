@@ -1,27 +1,27 @@
 Pod::Spec.new do |spec|
-  spec.name         = "NESDeltaCore"
+  spec.name         = "NESGameCore"
   spec.version      = "0.1"
   spec.summary      = "Nintendo Entertainment System plug-in for Delta emulator."
   spec.description  = "iOS framework that wraps Nestopia to allow playing NES games with Delta emulator."
-  spec.homepage     = "https://github.com/rileytestut/NESDeltaCore"
+  spec.homepage     = "https://github.com/DomenicoGonnelli/NESGameCore"
   spec.platform     = :ios, "14.0"
-  spec.source       = { :git => "https://github.com/rileytestut/NESDeltaCore.git" }
+  spec.source       = { :git => "https://github.com/DomenicoGonnelli/NESGameCore.git" }
 
   spec.author             = { "Riley Testut" => "riley@rileytestut.com" }
   spec.social_media_url   = "https://twitter.com/rileytestut"
   
-  spec.source_files  = "NESDeltaCore/**/*.{h,m,mm,swift}", "NestopiaJS/NESEmulatorBridge.cpp", "nestopia/source/core/**/*.{hpp,h}"
+  spec.source_files  = "NESGameCore/**/*.{h,m,mm,swift}", "NestopiaJS/NESEmulatorBridge.cpp", "nestopia/source/core/**/*.{hpp,h}"
   spec.public_header_files = "NestopiaJS/NESEmulatorBridge.hpp"
   spec.header_mappings_dir = ""
   spec.resource_bundles = {
-    "NESDeltaCore" => ["NESDeltaCore/**/*.deltamapping", "NESDeltaCore/**/*.deltaskin", "NestopiaJS/NstDatabase.xml"]
+    "NESGameCore" => ["NESGameCore/**/*.deltamapping", "NESGameCore/**/*.deltaskin", "NestopiaJS/NstDatabase.xml"]
   }
   
-  spec.dependency 'DeltaCore'
+  spec.dependency 'GameCore'
     
   spec.xcconfig = {
     "SWIFT_ACTIVE_COMPILATION_CONDITIONS" => "FRAMEWORK NATIVE",
-    "USER_HEADER_SEARCH_PATHS" => '"${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore/Swift Compatibility Header"'
+    "USER_HEADER_SEARCH_PATHS" => '"${PODS_CONFIGURATION_BUILD_DIR}/GameCore/Swift Compatibility Header"'
   }
   
 end

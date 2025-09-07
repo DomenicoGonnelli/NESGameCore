@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double NESDeltaCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char NESDeltaCoreVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <NESDeltaCore/PublicHeader.h>
-#import <NESDeltaCore/NESEmulatorBridge.hpp>
+#import <NESGameCore/NESEmulatorBridge.hpp>
 
