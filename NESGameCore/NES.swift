@@ -2,7 +2,7 @@
 //  NES.swift
 //  NESDeltaCore
 //
-//  Created by Riley Testut on 2/25/18.
+//  Created by Darlion on 2/25/18.
 //  Copyright © 2018 Riley Testut. All rights reserved.
 //
 
