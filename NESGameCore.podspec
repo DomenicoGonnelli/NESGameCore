@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "NestopiaJS/NESEmulatorBridge.hpp"
   spec.header_mappings_dir = ""
   spec.resource_bundles = {
-    "NESGameCore" => ["NESGameCore/**/*.deltamapping", "NESGameCore/**/*.deltaskin", "NestopiaJS/NstDatabase.xml"]
+    "NESGameCore" => ["NESGameCore/**/*.dgmapping", "NESGameCore/**/*.deltaskin", "NestopiaJS/NstDatabase.xml"]
   }
   
   spec.dependency 'GameCore'
