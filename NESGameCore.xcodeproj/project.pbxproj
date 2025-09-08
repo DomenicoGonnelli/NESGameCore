@@ -295,7 +295,7 @@
 		BF2F73B920BDD1AB009114FF /* NstVsRbiBaseball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF2F73B220BDD1AA009114FF /* NstVsRbiBaseball.cpp */; };
 		BF2F73BA20BDD1AB009114FF /* NstVsSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF2F73B420BDD1AA009114FF /* NstVsSystem.cpp */; };
 		BF2F73BE20BDD8CA009114FF /* NstDatabase.xml in Resources */ = {isa = PBXBuildFile; fileRef = BF2F72C320BDD139009114FF /* NstDatabase.xml */; };
-		BF2F73C220BF1A93009114FF /* Standard.deltamapping in Resources */ = {isa = PBXBuildFile; fileRef = BF2F73C120BF1A93009114FF /* Standard.deltamapping */; };
+		BF2F73C220BF1A93009114FF /* Standard.dgmapping in Resources */ = {isa = PBXBuildFile; fileRef = BF2F73C120BF1A93009114FF /* Standard.dgmapping */; };
 		BF3C12F820438F3F0079A4B5 /* NESGameCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3C12F620438F3F0079A4B5 /* NESGameCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF3DA3FC20C7079C00E3AE6B /* NESEmulatorBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE181D20C21B01006A17CD /* NESEmulatorBridge.swift */; };
 		BF4634A320D9D46800CD12FD /* libNestopia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2F702220BDCF93009114FF /* libNestopia.a */; };
@@ -947,7 +947,7 @@
 		BF2F73B420BDD1AA009114FF /* NstVsSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NstVsSystem.cpp; path = nestopia/source/core/vssystem/NstVsSystem.cpp; sourceTree = "<group>"; };
 		BF2F73B520BDD1AB009114FF /* NstVsTkoBoxing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NstVsTkoBoxing.hpp; path = nestopia/source/core/vssystem/NstVsTkoBoxing.hpp; sourceTree = "<group>"; };
 		BF2F73B620BDD1AB009114FF /* NstVsSuperXevious.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NstVsSuperXevious.hpp; path = nestopia/source/core/vssystem/NstVsSuperXevious.hpp; sourceTree = "<group>"; };
-		BF2F73C120BF1A93009114FF /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
+		BF2F73C120BF1A93009114FF /* Standard.dgmapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.dgmapping; sourceTree = "<group>"; };
 		BF3C12F320438F3F0079A4B5 /* NESGameCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NESGameCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3C12F620438F3F0079A4B5 /* NESGameCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NESGameCore.h; sourceTree = "<group>"; };
 		BF3C12F720438F3F0079A4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1675,7 +1675,7 @@
 				BF4634A520D9D60200CD12FD /* NstDatabase.xml */,
 				BF3C12F720438F3F0079A4B5 /* Info.plist */,
 				BFFBD3D62249B6E7002EFC79 /* Standard.dgskin */,
-				BF2F73C120BF1A93009114FF /* Standard.deltamapping */,
+				BF2F73C120BF1A93009114FF /* Standard.dgmapping */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1847,7 +1847,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFFBD3D72249B6E7002EFC79 /* Standard.dgskin in Resources */,
-				BF2F73C220BF1A93009114FF /* Standard.deltamapping in Resources */,
+				BF2F73C220BF1A93009114FF /* Standard.dgmapping in Resources */,
 				BF2F73BE20BDD8CA009114FF /* NstDatabase.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
