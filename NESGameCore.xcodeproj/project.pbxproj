@@ -294,14 +294,14 @@
 		BF2F73B820BDD1AB009114FF /* NstVsSuperXevious.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF2F73B120BDD1AA009114FF /* NstVsSuperXevious.cpp */; };
 		BF2F73B920BDD1AB009114FF /* NstVsRbiBaseball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF2F73B220BDD1AA009114FF /* NstVsRbiBaseball.cpp */; };
 		BF2F73BA20BDD1AB009114FF /* NstVsSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF2F73B420BDD1AA009114FF /* NstVsSystem.cpp */; };
-		BF2F73BE20BDD8CA009114FF /* NstDatabase.xml in Resources */ = {isa = PBXBuildFile; fileRef = BF2F72C320BDD139009114FF /* NstDatabase.xml */; };
-		BF2F73C220BF1A93009114FF /* Standard.dgmapping in Resources */ = {isa = PBXBuildFile; fileRef = BF2F73C120BF1A93009114FF /* Standard.dgmapping */; };
 		BF3C12F820438F3F0079A4B5 /* NESGameCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3C12F620438F3F0079A4B5 /* NESGameCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF3DA3FC20C7079C00E3AE6B /* NESEmulatorBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE181D20C21B01006A17CD /* NESEmulatorBridge.swift */; };
 		BF4634A320D9D46800CD12FD /* libNestopia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2F702220BDCF93009114FF /* libNestopia.a */; };
 		BF4634A420D9D46E00CD12FD /* NESEmulatorBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF5CA7F020C1EE0B00BDFCBC /* NESEmulatorBridge.cpp */; };
 		BFEE181F20C21BE6006A17CD /* NESEmulatorBridge.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BF5CA7F120C1EE0B00BDFCBC /* NESEmulatorBridge.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFFBD3D72249B6E7002EFC79 /* Standard.dgskin in Resources */ = {isa = PBXBuildFile; fileRef = BFFBD3D62249B6E7002EFC79 /* Standard.dgskin */; };
+		EB55E0462E6FA7BB0028EDA9 /* NstDatabase.xml in Resources */ = {isa = PBXBuildFile; fileRef = BF4634A520D9D60200CD12FD /* NstDatabase.xml */; };
+		EB55E0472E6FA7BB0028EDA9 /* Standard.dgskin in Resources */ = {isa = PBXBuildFile; fileRef = BFFBD3D62249B6E7002EFC79 /* Standard.dgskin */; };
+		EB55E0482E6FA7BB0028EDA9 /* Standard.dgmapping in Resources */ = {isa = PBXBuildFile; fileRef = BF2F73C120BF1A93009114FF /* Standard.dgmapping */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1846,9 +1846,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFBD3D72249B6E7002EFC79 /* Standard.dgskin in Resources */,
-				BF2F73C220BF1A93009114FF /* Standard.dgmapping in Resources */,
-				BF2F73BE20BDD8CA009114FF /* NstDatabase.xml in Resources */,
+				EB55E0462E6FA7BB0028EDA9 /* NstDatabase.xml in Resources */,
+				EB55E0472E6FA7BB0028EDA9 /* Standard.dgskin in Resources */,
+				EB55E0482E6FA7BB0028EDA9 /* Standard.dgmapping in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

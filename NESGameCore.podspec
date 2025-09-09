@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NESGameCore"
-  spec.version      = "0.1"
+  spec.version      = "0.2"
   spec.summary      = "Nintendo Entertainment System plug-im."
   spec.description  = "iOS framework that wraps Nestopia to allow playing NES games"
   spec.homepage     = "https://github.com/DomenicoGonnelli/NESGameCore"
