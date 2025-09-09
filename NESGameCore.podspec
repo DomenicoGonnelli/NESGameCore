@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Domenico Gonnelli" => "domenico.gonnelli@outlook.it" }
   
   spec.source_files  = "NESGameCore/**/*.{h,m,mm,swift}", "NestopiaJS/NESEmulatorBridge.cpp", "nestopia/source/core/**/*.{hpp,h}"
-  spec.public_header_files = "NestopiaJS/NESEmulatorBridge.hpp", "NESGameCore/NESGameCore.h"
+  spec.public_header_files = "NestopiaJS/NESEmulatorBridge.hpp"
   spec.header_mappings_dir = ""
   spec.resource_bundles = {
     "NESGameCore" => ["NESGameCore/**/*.dgmapping", "NESGameCore/**/*.dgskin", "NestopiaJS/NstDatabase.xml"]
