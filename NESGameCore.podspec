@@ -19,6 +19,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'GameCore'
     
   spec.xcconfig = {
+    "HEADER_SEARCH_PATHS" => '"${PODS_CONFIGURATION_BUILD_DIR}"',
     "USER_HEADER_SEARCH_PATHS" => '"${PODS_CONFIGURATION_BUILD_DIR}/GameCore/Swift Compatibility Header"'
   }
   
