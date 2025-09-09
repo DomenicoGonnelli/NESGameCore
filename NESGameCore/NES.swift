@@ -65,6 +65,9 @@ public struct NES: DeltaCoreProtocol
     private init()
     {
     }
+    
+    public var skinName: String { "Standard" }
+    public var mappingName: String { "Standard" }
 }
 
 import Foundation
