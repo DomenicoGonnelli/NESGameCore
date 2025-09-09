@@ -44,8 +44,8 @@ public struct NES: DeltaCoreProtocol
 {
     public static let core = NES()
     
-    public var name: String { "NESDeltaCore" }
-    public var identifier: String { "com.rileytestut.NESDeltaCore" }
+    public var name: String { "NESGameCore" }
+    public var identifier: String { "com.domenico.gonnelli.core.nes" }
     
     public var gameType: GameType { GameType.nes }
     public var gameInputType: Input.Type { NESGameInput.self }
